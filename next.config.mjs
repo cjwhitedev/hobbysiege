@@ -3,7 +3,7 @@ const nextConfig = {
   /* config options here */
   output: 'export',
   distDir: 'docs',
-  basePath: '/docs',
+  basePath: '/hobbysiege',
 };
 
 export default nextConfig;
