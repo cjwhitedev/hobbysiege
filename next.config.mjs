@@ -3,7 +3,8 @@ const nextConfig = {
   /* config options here */
   reactCompiler: true,
   output: 'export',
-  distDir: 'docs'
+  distDir: 'docs',
+  basePath: '/docs',
 };
 
 export default nextConfig;
