@@ -4,6 +4,9 @@ const nextConfig = {
   output: 'export',
   distDir: 'docs',
   basePath: '/hobbysiege',
+  images: {  
+    unoptimized: true,
+  },  
 };
 
 export default nextConfig;

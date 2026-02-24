@@ -13,15 +13,6 @@ export default function Home() {
           height={20}
           priority
         />
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-          unoptimized={true} // Critical for static export  
-        />
         <div className={styles.intro}>
           <h1>To get started, edit the page.js file.</h1>
           <p>
