@@ -4,7 +4,6 @@ const nextConfig = {
   output: 'export',
   distDir: 'docs',
   basePath: '/hobbysiege',
-  assetPrefix: '/hobbysiege/',
 };
 
 export default nextConfig;
