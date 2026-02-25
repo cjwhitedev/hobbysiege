@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import image from "../../public/images/dithering-effect.jpeg";
+import image from "../../public/images/dithered.jpeg";
 
 
 export default function Home() {
@@ -16,8 +16,8 @@ export default function Home() {
             className="dithered"
             src={image}
             alt="example image"
-            width={220}
-            height={262}
+            width={500}
+            height={500}
           />
         </figure>
         <p>Pig sausage tenderloin beef ribs corned beef bresaola venison. Filet mignon pork belly jerky pork ribeye. Ball tip turkey ground round pork. Sirloin short ribs chislic, filet mignon cow shank andouille. Tenderloin short ribs salami ribeye ground round frankfurter swine pork chop kielbasa spare ribs. Andouille prosciutto pig sausage t-bone, fatback cupim chicken drumstick pork jowl alcatra sirloin.</p>
