@@ -1,3 +1,0 @@
-:HL["/hobbysiege/_next/static/chunks/d1e305a1a9d4e506.css","style"]
-:HL["/hobbysiege/_next/static/chunks/8534d136ae0b8c55.css","style"]
-0:{"buildId":"MmGwUGnQ6aqJs3ZS82PRm","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
