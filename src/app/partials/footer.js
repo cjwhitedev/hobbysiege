@@ -1,9 +1,9 @@
-export default function Header() {
+export default function Footer() {
   return (
-    <header>
+    <footer>
       <div className="wrapper">
         hobbysiege
       </div>
-    </header>
+    </footer>
   );
 }
