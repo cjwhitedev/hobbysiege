@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header>
-      <div className="wrapper">
+      <div>
         hobbysiege
       </div>
     </header>
