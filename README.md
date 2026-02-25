@@ -41,3 +41,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - I want to use a common theme, probably gruvbox, and dithered images to make an ereader feel
 - inspo [lowtechmagazine](https://solar.lowtechmagazine.com/about/the-solar-website/#how)
 - figure out how to integrate a CMS. (outstatic)[https://github.com/avitorio/outstatic] seems like a possible solution.
+- (sanity)[https://www.sanity.io/pricing?ref=navbar] also looks like an option but probably more than i need.
