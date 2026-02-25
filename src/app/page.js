@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import nextlogo from "../../public/next.svg";
-import vercellogo from "../../public/vercel.svg";
+import image from "../../public/images/dithhering-effect.jpg";
+
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <figure>
           <Image
             className="dithered"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuser-images.githubusercontent.com%2F9162068%2F186179442-60d12f26-b5a5-498b-849c-69b1e46a7f02.png&f=1&nofb=1&ipt=7a79654a8bce2465a3aa6c904b4c94bc6c37013e43cda87e12b93bdec960e6f3"
+            src={image}
             alt="example image"
             width={220}
             height={262}
