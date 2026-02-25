@@ -93,8 +93,8 @@ body {
 
 header, footer {
   display: flex;
-  justify-content: flex-start;
-  background-color: var(--green-dim);
+  justify-content: center;
+  background-color: var(--bg_h);
 
   .wrapper {
     background-color: transparent;
