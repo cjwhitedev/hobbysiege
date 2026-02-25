@@ -1,5 +1,5 @@
 import "./globals.css";
-import Header from "./partials/header"
+import Header from "./_partials/header"
 
 export const metadata = {
   title: "hobbysiege",
