@@ -94,10 +94,9 @@ body {
 header, footer {
   display: flex;
   justify-content: center;
-  background-color: var(--bg_h);
-
+  
   .wrapper {
-    background-color: transparent;
+    background-color: var(--bg_h);
   }
 }
 
