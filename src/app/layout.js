@@ -1,5 +1,6 @@
 import "./globals.css";
-import Header from "./_partials/header"
+import Header from "./_partials/header";
+import Footer from "./_partials/footer";
 
 export const metadata = {
   title: "hobbysiege",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
