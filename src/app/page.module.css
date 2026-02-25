@@ -10,14 +10,6 @@
   align-items: center;
   justify-content: center;
   background-color: var(--background);
-
-  main {
-    min-height: 100vh;
-
-    * {
-      margin-bottom: 1rem;
-    }
-  }
 }
 
 /* Enable hover only on non-touch devices */
