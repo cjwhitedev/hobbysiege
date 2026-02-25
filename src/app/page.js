@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import image from "../../public/images/dithhering-effect.jpg";
+import image from "../../public/images/dithering-effect.jpeg";
 
 
 export default function Home() {
