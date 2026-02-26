@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: calc(100% - 3rem);
+      border-top: 1px solid var(--fg4);
+      top: -1rem;
+    }
+  }
+
+}

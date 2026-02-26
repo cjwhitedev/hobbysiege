@@ -1,12 +1,14 @@
-import Image from "next/image";
-import styles from "../page.module.css";
+import Breadcrumbs from "./breadcrumbs"
 
-export default function MdxLayout({ children }) {
+export default function MdxLayout({ children, pageName }) {
   // Create any shared layout or styles here
   return (
-    <div className={styles.page}>
+    <div className="page">
       <div className="wrapper">
-        <main className="container">{children}</main>
+        <Breadcrumbs pageName={pageName}/>
+        <main className="container">
+          {children}
+        </main>
       </div>
     </div>
   )

@@ -1,0 +1,23 @@
+.breadcrumbs {
+    position: absolute;
+    top: 1.5rem;
+
+    li {
+        display: inline-block;
+        margin-right: .25rem;
+        position: relative;
+
+        &::after {
+            content: '>';
+            margin-left: .25rem;
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+
+            &::after {
+                content: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: center;
+    
+    .wrapper {
+        background-color: var(--bg_h);
+        padding: 1rem 1.5rem;
+    }
+
+    .mark {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-decoration-line: line-through;
+        text-decoration-thickness: .1rem;
+        text-decoration-color: var(--purple-dim);
+
+        @media (hover: hover) and (pointer: fine) {
+            &:hover {
+                text-decoration-thickness: 0;
+                text-decoration-line: none;
+            }
+        }
+    }
+
+    .main-nav {
+        li {
+            display: inline-block;
+            margin-right: .5rem;
+            position: relative;
+
+            &::after {
+                content: '|';
+                margin-left: .5rem;
+            }
+
+            &:last-of-type {
+                margin-right: 0;
+
+                &::after {
+                    content: none;
+                }
+            }
+        }
+    }
+}
+

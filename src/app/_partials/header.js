@@ -5,7 +5,11 @@ export default function Header() {
     <header>
       <div className="wrapper">
         <div className="container">
-          <Link className='mark' href={`/`}>hobbysiege</Link>
+          <ul className='main-nav'>
+            <li><Link className='mark' href={`/`}>hobbysiege</Link></li>
+            <li><Link href={`/about`}>about</Link></li>
+            <li><Link href={`/blog`}>blog</Link></li>
+          </ul>
         </div>
       </div>
     </header>

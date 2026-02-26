@@ -1,14 +1,12 @@
 import Image from "next/image";
 import Link from 'next/link';
-import image from "../../public/images/dithered.jpeg";
-
 
 export default async function Home() {
   return (
     <div className="page">
       <div className="wrapper">
         <main className="container">
-          <h1>Home Page</h1>
+            <h1>About Page</h1>
         </main>
       </div>
     </div>
