@@ -6,7 +6,7 @@ export default function MdxLayout({ children }) {
   return (
     <div className={styles.page}>
       <div className="wrapper">
-        <main>{children}</main>
+        <main className="container">{children}</main>
       </div>
     </div>
   )

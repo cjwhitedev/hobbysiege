@@ -2,7 +2,9 @@ export default function Footer() {
   return (
     <footer>
       <div className="wrapper">
-        footer
+        <div className="container">
+          footer
+        </div>
       </div>
     </footer>
   );

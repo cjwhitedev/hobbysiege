@@ -9,4 +9,4 @@ export function generateStaticParams() {
   return [{ slug: 'welcome' }, { slug: 'a-new-post' }]
 }
  
-export const dynamicParams = false
+export const dynamicParams = false;

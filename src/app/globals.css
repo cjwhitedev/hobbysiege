@@ -97,6 +97,20 @@ header {
   
   .wrapper {
     background-color: var(--bg_h);
+    padding: 1rem 1.5rem;
+  }
+
+  .mark {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration-line: line-through;
+    text-decoration-thickness: .1rem;
+    text-decoration-color: var(--red);
+
+    &:hover {
+      text-decoration-thickness: 0;
+      text-decoration-line: none;
+    }
   }
 }
 
@@ -106,12 +120,14 @@ footer {
 }
 
 main {
-  width: 100%;
-  max-width: 70ch;
-
   > * {
     margin-bottom: 1rem;
   }
+}
+
+.container {
+  width: 100%;
+  max-width: 70ch;
 }
 
 .dithered {
