@@ -2,6 +2,10 @@ footer {
   display: flex;
   justify-content: center;
 
+  .wrapper {
+    padding-bottom: 4.5rem;
+  }
+
   .container {
     position: relative;
 
