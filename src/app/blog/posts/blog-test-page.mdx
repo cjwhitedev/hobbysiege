@@ -32,6 +32,8 @@ __This is bold text__
 
 _This is italic text_
 
+Bacon ipsum dolor amet fatback ham doner kielbasa drumstick pig, ground round beef ribs salami ribeye pork belly pork rump shank. Bacon cupim kevin drumstick pancetta. Doner brisket swine cupim hamburger burgdoggen, corned beef pancetta chuck meatloaf leberkas. Ribeye ground round beef shank tail turkey spare ribs. Meatball chislic filet mignon, short ribs landjaeger ham hock beef chuck sausage capicola corned beef salami.
+
 1. First ordered list item
 2. Another item
 1. Actual numbers don't matter, just that it's a number
@@ -92,5 +94,5 @@ Quote break.
 > > > ...or with spaces between arrows.
 
 export default function MDXPage({ children }) {
-  return <MdxLayout pageName="a new post">{children}</MdxLayout>
+  return <MdxLayout pageName="a new post" heroImage={image}>{children}</MdxLayout>
 }

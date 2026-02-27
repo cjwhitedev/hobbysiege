@@ -18,10 +18,15 @@ body {
   width: 100%;
   max-width: 45rem;
   justify-content: center;
+  align-items: center;
   background-color: var(--bg);
   padding: .75rem 1.5rem;
   flex-direction: column;
   position: relative;
+
+  /* @media (min-width: 600px) {
+    padding: .75rem 3rem;
+  } */
 }
 
 .page {
@@ -32,11 +37,16 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--background);
+  flex-direction: column;
 }
 
 main {
   > * {
     margin-bottom: 1rem;
+  }
+
+  ul, ol {
+    margin-left: 1rem;
   }
 }
 
