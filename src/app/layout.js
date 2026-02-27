@@ -4,7 +4,7 @@ import Footer from "./_partials/footer";
 
 export const metadata = {
   title: "blea.cc",
-  description: "The future is blea.cc",
+  description: "The future is blea.cc/",
 };
 
 export default function RootLayout({ children }) {
