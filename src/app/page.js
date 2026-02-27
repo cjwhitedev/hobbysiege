@@ -11,6 +11,7 @@ export default async function Home() {
       <div className="wrapper">
         <main className="container">
           <h1>You Have Survived.</h1>
+          <p>If you are here, it means you have survived.</p>
         </main>
       </div>
     </div>

@@ -1,7 +1,6 @@
 .breadcrumbs {
-    position: absolute;
-    top: 1.5rem;
-
+    padding: 1rem 0;
+    color: var(--fg3);
     li {
         display: inline-block;
         margin-right: .25rem;

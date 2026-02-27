@@ -68,10 +68,6 @@ main {
 
 h1 {
   margin-top: 1rem;
-
-  &:first-of-type {
-    margin-top: 3rem;
-  }
 }
 
 p {
@@ -102,13 +98,13 @@ figure {
 }
 
 code {
-  background-color: var(--bg_h);
+  background-color: var(--always-dark);
   padding: .5rem;
   border-radius: .5rem;
 }
 
 pre {
-  background-color: var(--bg_h);
+  background-color: var(--always-dark);
   display: block;
   padding: 1rem;
   border-radius: .5rem;

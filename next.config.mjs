@@ -4,8 +4,6 @@ import createMDX from '@next/mdx'
 const nextConfig = {
   pageExtensions: ['js','mdx'],
   output: 'export',
-  distDir: 'docs',
-  basePath: '/hobbysiege',
   images: {
     unoptimized: true,
   }

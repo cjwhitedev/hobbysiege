@@ -30,6 +30,8 @@
   --aqua-dim:   #689d6a;
   --orange-dim: #d65d0e;
   --gray-dim:   #7c6f64;
+
+  --always-dark: #1d2021;
 }
 
 @media (prefers-color-scheme: dark) {

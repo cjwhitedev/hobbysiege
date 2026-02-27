@@ -10,14 +10,33 @@ header {
     .mark {
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
-        text-decoration-line: line-through;
-        text-decoration-thickness: .1rem;
-        text-decoration-color: var(--purple-dim);
+        text-decoration: none;
+        z-index: 1;
+        position: relative;
+        color: var(--purple);
+
+        &::before {
+            content: '';
+            height: .8em;
+            top: .08em;
+            background-color: var(--purple);
+            width: .1em;
+            position: absolute;
+            right: .2em;
+            transform: skewX(-25deg);
+            z-index: -1;
+            transition: width 200ms ease-in-out;
+        }
+
+        span {
+            opacity: 0;
+        }
 
         @media (hover: hover) and (pointer: fine) {
             &:hover {
-                text-decoration-thickness: 0;
-                text-decoration-line: none;
+                &::before {
+                    width: 100%;
+                }
             }
         }
     }
