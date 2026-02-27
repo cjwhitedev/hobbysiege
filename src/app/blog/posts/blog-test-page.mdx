@@ -1,4 +1,5 @@
 import Image from "next/image";
+import heroImage from "../../../../public/images/backyard.jpeg";
 import image from "../../../../public/images/dithered.jpeg";
 import MdxLayout from '../../_partials/mdx-layout'
 
@@ -94,5 +95,5 @@ Quote break.
 > > > ...or with spaces between arrows.
 
 export default function MDXPage({ children }) {
-  return <MdxLayout pageName="a new post" heroImage={image}>{children}</MdxLayout>
+  return <MdxLayout pageName="a new post" heroImage={heroImage}>{children}</MdxLayout>
 }

@@ -9,8 +9,8 @@ export default function Hero({imagePath}) {
                   className="dithered"
                   src={imagePath}
                   alt="example image"
-                  width={600}
-                  height={600}
+                  width={720}
+                  height={240}
               />
           </div>
         );

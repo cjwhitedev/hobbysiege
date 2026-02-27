@@ -6,7 +6,6 @@ export default function MdxLayout({ children, heroImage, pageName }) {
     <div className="page">
       <Hero imagePath={heroImage}/>
       <div className="wrapper">
-        
         <Breadcrumbs pageName={pageName}/>
         <main className="container">
           {children}
